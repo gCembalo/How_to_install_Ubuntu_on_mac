@@ -55,17 +55,29 @@ Now the most difficult part of the guide, but don't worry. Launch the VM from UT
 ![installation1](/image/installation10.png)
 ![installation1](/image/installation11.png)
 
-Once the installation process is completed will be on the screen the option *Reboot now*, press *enter* and then close the VM. At this point we have to remove the image of Linux from our VM to avoid that the installation process starts all over again. Select your VM, go to *CD/DVD* and select *clear*. Now you can start your VM and log-in in the terminal interface that will show to you. Once you have done you have to write:
+Once the installation process is completed will be on the screen the option *Reboot now*, press *enter* and then close the VM. At this point we have to remove the image of Linux from our VM to avoid that the installation process starts all over again. Select your VM, go to *CD/DVD* and select *clear*.
 
 ![installation1](/image/installation12.png)
 
-
-
-
-
-
-
-
+Now you can start your VM and log-in in the terminal interface that will show to you. Once you have done you have to write:
+```
+sudo apt update
+```
+to update all the packages. You have to write also:
+```
+sudo apt install ubuntu-desktop
+```
+to install Ubuntu desktop and have a graphics interface. To complete write:
+```
+sudo reboot now
+```
+to restart the VM. Once the log-in screen will be on the screen just write your password and finish the installation.
 
 
 ### Finish to set-up
+
+The last two step before use our new Linux VM is complete the configuration settings and install drivers. To do that open the terminal and write:
+```
+sudo apt intall spice-vdagent spice-webdavd
+```
+after they are installed power off the VM. In UTM settings for your VM select *sharing*, from *Directory share Mode* select *SPICE WebDAV* and a folder that you want to share between VM and Mac (in *Path*). Also if you go on *Display* VM settings and enable *Retina Mode* you can improve the graphics for retina display.
