@@ -19,6 +19,20 @@ In this guide I'll show you some image from a pc to guide you easily, all the ph
 
 
 ### Install Ubuntu
+
+As you can imagine to have a Linux computer we have to install Linux on our pc. So, the first thing we have to do is download the Ubuntu image. You have to go to the official [Ubuntu website](https://ubuntu.com/), select *product*, then *Ubuntu server* (we need the server versione because it is the only possibility with an ARM processor), click on *Alternative architectures*, select *ARM* and click on the green download bottom. Once you have done this you will have on your Mac a file like:
+```
+ubuntu-24.04.3-live-server-arm64 16.47.29.iso
+```
+
 ### Install UTM and create the Virtual Machine
+
+Install UTM is an easy step. You have just to go to [UTM website](https://mac.getutm.app/) and download the program. Once you have done you can create a VM. Select *Virtualize*, then *Linux* with in *Boot ISO image* your .iso file that you have downloaded from Ubuntu website. Now you have to choose how much memory dedicate to your VM, if you don't know how much space use just leave the default settings. It is suggested *Enable hardware OpenGL acceleration* to improve some graphics aspects. To finish just save the Virtual Machine.
+
+
+
+
+
+
 ### Configure the Virtual Machine
 ### Finish to set-up
