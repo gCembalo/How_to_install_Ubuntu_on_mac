@@ -24,6 +24,7 @@ As you can imagine to have a Linux computer we have to install Linux on our pc. 
 ```
 ubuntu-24.04.3-live-server-arm64 16.47.29.iso
 ```
+<img src="/figure/ubuntu1.png" alt="ubuntu1">
 
 ![ubuntu1](/figure/ubuntu1.png)
 ![ubuntu2](/figure/ubuntu2.png)
