@@ -44,20 +44,20 @@ Install UTM is an easy step. You have just to go to [UTM website](https://mac.ge
 Now the most difficult part of the guide, but don't worry. Launch the VM from UTM and select *Try or install Ubuntu Server* to start the installation process. Now you can complete the installation process as you prefer, but if you want I can show how I did. Just kepp in mind to configure properly your keyboard and username and password.
 
 ![installation1](/image/installation1.png)
-![installation1](/image/installation2.png)
-![installation1](/image/installation3.png)
-![installation1](/image/installation4.png)
-![installation1](/image/installation5.png)
-![installation1](/image/installation6.png)
-![installation1](/image/installation7.png)
-![installation1](/image/installation8.png)
-![installation1](/image/installation9.png)
-![installation1](/image/installation10.png)
-![installation1](/image/installation11.png)
+![installation2](/image/installation2.png)
+![installation3](/image/installation3.png)
+![installation4](/image/installation4.png)
+![installation5](/image/installation5.png)
+![installation6](/image/installation6.png)
+![installation7](/image/installation7.png)
+![installation8](/image/installation8.png)
+![installation9](/image/installation9.png)
+![installation10](/image/installation10.png)
+![installation11](/image/installation11.png)
 
 Once the installation process is completed will be on the screen the option *Reboot now*, press *enter* and then close the VM. At this point we have to remove the image of Linux from our VM to avoid that the installation process starts all over again. Select your VM, go to *CD/DVD* and select *clear*.
 
-![installation1](/image/installation12.png)
+![installation12](/image/installation12.png)
 
 Now you can start your VM and log-in in the terminal interface that will show to you. Once you have done you have to write:
 ```
@@ -81,3 +81,8 @@ The last two step before use our new Linux VM is complete the configuration sett
 sudo apt intall spice-vdagent spice-webdavd
 ```
 after they are installed power off the VM. In UTM settings for your VM select *sharing*, from *Directory share Mode* select *SPICE WebDAV* and a folder that you want to share between VM and Mac (in *Path*). Also if you go on *Display* VM settings and enable *Retina Mode* you can improve the graphics for retina display.
+
+![setup1](/image/setup1.png)
+![setup2](/image/setup2.png)
+![setup3](/image/setup3.png)
+![setup4](/image/setup4.png)
