@@ -39,8 +39,22 @@ Install UTM is an easy step. You have just to go to [UTM website](https://mac.ge
 ![VM3](/image/VM3.png)
 
 
-
-
-
 ### Configure the Virtual Machine
+
+Now the most difficult part of the guide, but don't worry. Launch the VM from UTM and select *Try or install Ubuntu Server* to start the installation process. Now you can complete the installation process as you prefer, but if you want I can show how I did. Just kepp in mind to configure properly your keyboard and username and password.
+
+
+Once the installation process is completed will be on the screen the option *Reboot now*, press *enter* and then close the VM. At this point we have to remove the image of Linux from our VM to avoid that the installation process starts all over again. Select your VM, go to *CD/DVD* and select *clear*. Now you can start your VM and log-in in the terminal interface that will show to you. Once you have done you have to write:
+
+
+
+
+
+
+
+
+
+
+
+
 ### Finish to set-up
